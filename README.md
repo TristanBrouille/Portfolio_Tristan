@@ -6,19 +6,9 @@ Site statique en **HTML, CSS et JavaScript** sans dépendance ni build.
 
 ## Contenu
 
-- Présentation et recherche de stage de fin d'études (6 mois, dès le 25 janvier 2027)
-- Parcours : expériences professionnelles et formation (onglets)
-- Projets filtrables : web, DevOps & sécurité, IA, mobile, IoT & embarqué
-- Engagement associatif (EPF Astronomie)
-- Compétences et langues
-- Contact + CV en PDF
+Une seule page en deux colonnes : identité, disponibilité et contact à gauche (fixe sur ordinateur), puis profil, expérience, projets, formation, associatif et compétences.
 
-## Fonctionnalités
-
-- Thème clair / sombre (mémorisé)
-- Responsive (menu mobile)
-- Animations au scroll, compteurs, effet machine à écrire (désactivés si `prefers-reduced-motion`)
-- Version imprimable
+Thème sombre automatique selon le réglage du système, mise en page adaptée au mobile et à l'impression.
 
 ## Lancer en local
 
