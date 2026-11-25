@@ -6,6 +6,11 @@
     try { localStorage.setItem("theme", root.dataset.theme); } catch (e) {}
   });
 
+  // Langue : retient le choix fait avec le bouton FR / EN
+  document.querySelectorAll(".lang").forEach(a => a.addEventListener("click", () => {
+    try { localStorage.setItem("lang", a.dataset.lang); } catch (e) {}
+  }));
+
   // Section en cours dans la navigation
   const links = [...document.querySelectorAll(".side__nav a")];
   const byId = Object.fromEntries(links.map(a => [a.hash.slice(1), a]));

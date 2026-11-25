@@ -56,6 +56,8 @@ a:hover { text-decoration-thickness: 2px; }
   top: 0;
   align-self: start;
   height: 100vh;
+  overflow-y: auto;
+  scrollbar-width: none;
   padding: 56px 0 36px;
   display: flex;
   flex-direction: column;
@@ -72,6 +74,14 @@ a:hover { text-decoration-thickness: 2px; }
   display: grid; place-items: center; cursor: pointer;
 }
 .theme:hover { color: var(--ink); }
+.side__tools { display: flex; gap: 8px; }
+.lang {
+  height: 38px; min-width: 38px; padding: 0 10px; border-radius: 10px;
+  border: 1px solid var(--rule); background: var(--surface); color: var(--muted);
+  display: grid; place-items: center;
+  font-size: 13.5px; font-weight: 700; letter-spacing: .02em; text-decoration: none;
+}
+.lang:hover { color: var(--ink); border-color: var(--ink); }
 .theme svg { width: 17px; height: 17px; }
 .i-moon { fill: currentColor; }
 .i-sun { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }

@@ -6,8 +6,11 @@
   <title>Tristan Dhersin, développeur web full-stack</title>
   <meta name="description" content="Tristan Dhersin, étudiant ingénieur à l'EPF, développeur web full-stack Java / Spring Boot et Angular. Cherche un stage de fin d'études de 6 mois à partir du 25 janvier 2027." />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230f766e'/><text x='50' y='67' font-size='50' text-anchor='middle' font-family='Arial' font-weight='700' fill='white'>T</text></svg>" />
+  <link rel="alternate" hreflang="fr" href="./" />
+  <link rel="alternate" hreflang="en" href="en/" />
   <script>
     try {
+      if (localStorage.getItem("lang") === "en") location.replace("en/index.html");
       const t = localStorage.getItem("theme");
       document.documentElement.dataset.theme = t || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
     } catch (e) {}
@@ -23,10 +26,13 @@
     <aside class="side">
       <div class="side__top">
         <img class="side__photo" src="assets/photo.jpg" alt="Tristan Dhersin" width="112" height="112" />
-        <button class="theme" id="themeToggle" type="button" aria-label="Passer en thème sombre ou clair">
-          <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
-          <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2 6 6M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8 6 18M18 6l1.8-1.8"/></svg>
-        </button>
+        <div class="side__tools">
+          <a class="lang" href="en/index.html" hreflang="en" lang="en" data-lang="en" title="English version">EN</a>
+          <button class="theme" id="themeToggle" type="button" aria-label="Passer en thème sombre ou clair">
+            <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+            <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2 6 6M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8 6 18M18 6l1.8-1.8"/></svg>
+          </button>
+        </div>
       </div>
 
       <h1 class="side__name">Tristan Dhersin</h1>
