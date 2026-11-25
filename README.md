@@ -26,10 +26,15 @@ Le site sera disponible sur `https://tristanbrouille.github.io/Portfolio_Tristan
 ## Structure
 
 ```
-index.html
+index.html          version anglaise (par défaut)
+fr/index.html       version française
+en/index.html       redirige vers la racine (anciens liens)
 style.css
 script.js
 assets/
   photo.jpg
-  CV_Tristan_Dhersin.pdf
+  CV_Tristan_Dhersin.pdf      CV en français
+  CV_Tristan_Dhersin_EN.pdf   CV en anglais
 ```
+
+Le bouton FR / EN mémorise la langue choisie.

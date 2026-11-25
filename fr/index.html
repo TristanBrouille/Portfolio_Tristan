@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tristan Dhersin, développeur web full-stack</title>
+  <meta name="description" content="Tristan Dhersin, étudiant ingénieur à l'EPF, développeur web full-stack Java / Spring Boot et Angular. Cherche un stage de fin d'études de 6 mois à l'étranger à partir du 25 janvier 2027." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230f766e'/><text x='50' y='67' font-size='50' text-anchor='middle' font-family='Arial' font-weight='700' fill='white'>T</text></svg>" />
+  <link rel="alternate" hreflang="fr" href="./" />
+  <link rel="alternate" hreflang="en" href="../" />
+  <script>
+    try {
+      const t = localStorage.getItem("theme");
+      document.documentElement.dataset.theme = t || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    } catch (e) {}
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <div class="layout">
+
+    <aside class="side">
+      <div class="side__top">
+        <img class="side__photo" src="../assets/photo.jpg" alt="Tristan Dhersin" width="112" height="112" />
+        <div class="side__tools">
+          <a class="lang" href="../index.html" hreflang="en" lang="en" data-lang="en" title="English version">EN</a>
+          <button class="theme" id="themeToggle" type="button" aria-label="Passer en thème sombre ou clair">
+            <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+            <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2 6 6M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8 6 18M18 6l1.8-1.8"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <h1 class="side__name">Tristan Dhersin</h1>
+      <p class="side__role">Développeur web full-stack, Java / Spring Boot et Angular</p>
+
+      <p class="status"><span class="status__dot" aria-hidden="true"></span>
+        Disponible pour un stage de fin d'études de 6&nbsp;mois à l'étranger,
+        à partir du 25&nbsp;janvier&nbsp;2027.
+      </p>
+
+      <div class="side__cta">
+        <a class="btn btn--solid" href="mailto:tristan.dhersin@epfedu.fr">Me contacter</a>
+        <a class="btn" href="../assets/CV_Tristan_Dhersin.pdf" target="_blank" rel="noopener">Télécharger le CV</a>
+      </div>
+
+      <nav class="side__nav" aria-label="Sections">
+        <a href="#profil">Profil</a>
+        <a href="#experience">Expérience</a>
+        <a href="#projets">Projets</a>
+        <a href="#formation">Formation</a>
+        <a href="#associatif">Associatif</a>
+        <a href="#competences">Compétences</a>
+      </nav>
+
+      <ul class="side__social">
+        <li><a href="https://github.com/TristanBrouille" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.7 1.7.3 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg>
+        </a></li>
+        <li><a href="https://www.linkedin.com/in/tristan-dhersin-30085b224/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.4 20.5h-3.6v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.7H9.3V9h3.4v1.6c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.4 4.3 5.5v6.2zM5.3 7.4a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2zM7.1 20.5H3.5V9h3.6v11.5zM22.2 0H1.8C.8 0 0 .8 0 1.7v20.6c0 .9.8 1.7 1.8 1.7h20.4c1 0 1.8-.8 1.8-1.7V1.7C24 .8 23.2 0 22.2 0z"/></svg>
+        </a></li>
+        <li class="side__mail"><a href="mailto:tristan.dhersin@epfedu.fr">tristan.dhersin@epfedu.fr</a></li>
+      </ul>
+    </aside>
+
+    <main class="content">
+
+      <!-- Profil -->
+      <section id="profil" class="block">
+        <h2>Profil</h2>
+        <p class="lead">
+          Je termine mon cycle ingénieur à l'EPF, majeure Systèmes Numériques et Intelligents.
+          J'aime prendre une application de bout en bout&nbsp;: poser l'architecture, la sécuriser,
+          écrire le back et le front, puis la mettre en production.
+        </p>
+        <p>
+          J'ai effectué un stage de six mois chez Varenne Capital Partners sur des outils internes en Spring Boot
+          et Angular. En Junior-Entreprise, j'ai ensuite livré à LPTENT un configurateur de tentes en 3D
+          temps réel, avec la chaîne qui génère ses modèles. En parallèle, je mène plusieurs applications
+          d'équipe ou personnelles, du DDD au déploiement derrière Nginx.
+        </p>
+        <p>
+          J'ai également une solide expérience en systèmes embarqués&nbsp;: j'ai présidé l'association EPF Astronomie et dirigé
+          une équipe de douze personnes sur une mini-fusée présentée au C'Space du CNES.
+        </p>
+
+        <dl class="facts">
+          <div><dt>6 mois</dt><dd>de stage en Spring Boot et Angular</dd></div>
+          <div><dt>1&nbsp;800+</dt><dd>modèles 3D générés pour LPTENT</dd></div>
+          <div><dt>10+</dt><dd>applications et projets menés</dd></div>
+        </dl>
+      </section>
+
+      <!-- Expérience -->
+      <section id="experience" class="block">
+        <h2>Expérience</h2>
+        <ol class="timeline">
+          <li class="tl">
+            <p class="tl__when">2026</p>
+            <h3>Configurateur 3D de tentes pour LPTENT</h3>
+            <p class="tl__where">Développeur intervenant, EPF Projets (Junior-Entreprise)</p>
+            <ul>
+              <li>Plugin WordPress en bloc Gutenberg&nbsp;: le visiteur choisit gamme, dimensions, toit, murs et accessoires, et voit sa tente en 3D temps réel avec Three.js.</li>
+              <li>Import de visuels personnalisés appliqués directement sur la toile.</li>
+              <li>Demande de devis&nbsp;: PDF et JSON générés dans le navigateur avec jsPDF, envoyés à une API REST en PHP (anti-robots, limite de débit, envoi d'e-mails).</li>
+              <li>Site bilingue français / anglais, conforme au RGPD.</li>
+              <li>Chaîne Python / Blender automatisée qui produit plus de 1&nbsp;800 modèles GLB compressés en Draco et le catalogue JSON.</li>
+              <li>Audit de performance et documentation de passation pour le client.</li>
+            </ul>
+            <p class="tags"><span>Three.js</span><span>JavaScript</span><span>PHP</span><span>WordPress</span><span>Material Web</span><span>jsPDF</span><span>Python</span><span>Blender</span></p>
+          </li>
+
+          <li class="tl">
+            <p class="tl__when">2025 – 2026</p>
+            <h3>Enseignant vacataire et membre de jury</h3>
+            <p class="tl__where">EPF École d'Ingénieurs, Cachan</p>
+            <ul>
+              <li>Encadrement de travaux pratiques en fabrication additive.</li>
+              <li>Évaluation des soutenances de projets étudiants.</li>
+            </ul>
+          </li>
+
+          <li class="tl">
+            <p class="tl__when">2025, 6 mois</p>
+            <h3>Stage ingénieur développeur web</h3>
+            <p class="tl__where">Varenne Capital Partners, Paris 8<sup>e</sup></p>
+            <ul>
+              <li>Conception et développement d'outils internes full-stack qui automatisent des processus financiers.</li>
+              <li>Travail dans une base de code Spring Boot / Angular existante, en lien avec la DSI.</li>
+            </ul>
+            <p class="tags"><span>Java</span><span>Spring Boot</span><span>Angular</span><span>TypeScript</span></p>
+          </li>
+        </ol>
+      </section>
+
+      <!-- Projets -->
+      <section id="projets" class="block">
+        <h2>Projets</h2>
+
+        <div class="filters" role="group" aria-label="Filtrer les projets">
+          <button class="filter is-on" data-filter="all" aria-pressed="true">Tous</button>
+          <button class="filter" data-filter="web" aria-pressed="false">Web</button>
+          <button class="filter" data-filter="devops" aria-pressed="false">DevOps et sécurité</button>
+          <button class="filter" data-filter="ia" aria-pressed="false">IA</button>
+          <button class="filter" data-filter="mobile" aria-pressed="false">Mobile</button>
+          <button class="filter" data-filter="iot" aria-pressed="false">Embarqué et IoT</button>
+        </div>
+
+        <div class="cards" id="cards">
+          <article class="card card--wide" data-cat="web devops">
+            <p class="card__meta"><span class="live">En cours</span> 2026 – 2027, équipe de cinq</p>
+            <h3>SkinomiX AI</h3>
+            <p class="card__sub">SaaS B2C d'analyse de la peau pour une start-up, projet de semestre</p>
+            <ul>
+              <li>Cahier des charges rédigé avec le client, maquettes des espaces client, partenaire et administration.</li>
+              <li>Données de santé&nbsp;: connexion par rôle, double authentification et RBAC pour les administrateurs, journal d'audit, exigences RGPD et ISO&nbsp;27001.</li>
+              <li>Pipeline CI/CD, couverture de tests au-delà de 50&nbsp;% côté serveur, réponses en moins de 5&nbsp;secondes.</li>
+            </ul>
+            <p class="tags"><span>SaaS</span><span>2FA</span><span>RBAC</span><span>RGPD</span><span>CI/CD</span></p>
+          </article>
+
+          <article class="card" data-cat="web devops">
+            <p class="card__meta">2026, lead dev et DevOps</p>
+            <h3>EPF-Core</h3>
+            <p class="card__sub">Plateforme web de l'école, équipe de cinq</p>
+            <ul>
+              <li>Spring Boot / Angular découplés, Gitflow avec revue obligatoire.</li>
+              <li>Spring Security&nbsp;: RBAC, CORS, secrets.</li>
+              <li>Serveur Linux derrière Nginx en reverse proxy, SSL/TLS.</li>
+            </ul>
+            <p class="tags"><span>Spring Boot</span><span>Angular</span><span>Nginx</span><span>Linux</span></p>
+            <a class="card__link" href="https://github.com/TristanBrouille/EPF-Core" target="_blank" rel="noopener">Code sur GitHub</a>
+          </article>
+
+          <article class="card" data-cat="web">
+            <p class="card__meta"><span class="live">En cours</span> 2026, personnel</p>
+            <h3>JWTG Manager</h3>
+            <p class="card__sub">Suivi de collection pour un jeu mobile</p>
+            <ul>
+              <li>Back en DDD&nbsp;: six contextes délimités reliés par événements.</li>
+              <li>Authentification JWT, PostgreSQL.</li>
+              <li>Angular 22&nbsp;: signals, standalone, zoneless, SSR.</li>
+            </ul>
+            <p class="tags"><span>Spring Boot</span><span>DDD</span><span>JWT</span><span>PostgreSQL</span><span>Angular</span></p>
+            <a class="card__link" href="https://github.com/TristanBrouille/JwtgManager" target="_blank" rel="noopener">Code sur GitHub</a>
+          </article>
+
+          <article class="card" data-cat="web devops">
+            <p class="card__meta">2026, en équipe</p>
+            <h3>HorseCo-Pilote</h3>
+            <p class="card__sub">CRM pour un centre équestre</p>
+            <ul>
+              <li>Trois rôles, planning et règles métier.</li>
+              <li>Migrations Flyway, documentation Swagger, conteneurs Docker.</li>
+            </ul>
+            <p class="tags"><span>Spring Boot</span><span>Flyway</span><span>Docker</span><span>Angular</span></p>
+            <p class="card__links">
+              <a class="card__link" href="https://github.com/TristanBrouille/HorseCo-Pilote" target="_blank" rel="noopener">Back</a>
+              <a class="card__link" href="https://github.com/TristanBrouille/HorseCo-Pilote-Front" target="_blank" rel="noopener">Front</a>
+            </p>
+          </article>
+
+          <article class="card" data-cat="iot web">
+            <p class="card__meta">2026</p>
+            <h3>PiCar IoT</h3>
+            <p class="card__sub">Pilotage d'un robot Raspberry Pi depuis le navigateur</p>
+            <ul>
+              <li>Interface Angular, API Spring Boot qui transmet les commandes au robot par MQTT.</li>
+            </ul>
+            <p class="tags"><span>Angular</span><span>Spring Boot</span><span>MQTT</span><span>Raspberry Pi</span></p>
+            <a class="card__link" href="https://github.com/TristanBrouille/Projet_IOT_Picard" target="_blank" rel="noopener">Code sur GitHub</a>
+          </article>
+
+          <article class="card" data-cat="ia devops">
+            <p class="card__meta">2026, hackathon</p>
+            <h3>Audit EBIOS par agents IA</h3>
+            <p class="card__sub">Audit de sécurité selon la méthode EBIOS Risk Manager de l'ANSSI</p>
+            <ul>
+              <li>Des agents IA guident et accélèrent l'analyse de risques.</li>
+            </ul>
+            <p class="tags"><span>Agents IA</span><span>Cybersécurité</span></p>
+          </article>
+
+          <article class="card" data-cat="mobile">
+            <p class="card__meta">2026</p>
+            <h3>LibTracker</h3>
+            <p class="card__sub">Vélib' disponibles en temps réel</p>
+            <ul>
+              <li>Application Android native en Kotlin.</li>
+            </ul>
+            <p class="tags"><span>Kotlin</span><span>Android</span></p>
+            <a class="card__link" href="https://github.com/TristanBrouille/LibTracker" target="_blank" rel="noopener">Code sur GitHub</a>
+          </article>
+
+          <article class="card" data-cat="web">
+            <p class="card__meta">2026, projet de cours</p>
+            <h3>Restaurant EPF</h3>
+            <p class="card__sub">Gestion de restaurant</p>
+            <ul>
+              <li>Spring Framework 6 sans Spring Boot, H2 via JdbcTemplate, pattern DAO, Swagger, Checkstyle.</li>
+              <li>Front Angular 21 testé avec Vitest.</li>
+            </ul>
+            <p class="tags"><span>Spring 6</span><span>H2</span><span>Angular</span><span>Vitest</span></p>
+            <a class="card__link" href="https://github.com/TristanBrouille/restaurant-epf-sujet" target="_blank" rel="noopener">Code sur GitHub</a>
+          </article>
+
+          <article class="card" data-cat="iot">
+            <p class="card__meta">2024 – 2026, EPF Astronomie</p>
+            <h3>Mini-fusée</h3>
+            <p class="card__sub">Mini-fusée pour le C'Space du CNES</p>
+            <ul>
+              <li>Logiciel embarqué en Ada/SPARK sur STM32, cartes PCB conçues par l'équipe.</li>
+            </ul>
+            <p class="tags"><span>Ada/SPARK</span><span>STM32</span><span>PCB</span></p>
+          </article>
+
+          <article class="card" data-cat="iot web">
+            <p class="card__meta">2023 – 2026</p>
+            <h3>Autres dépôts</h3>
+            <ul class="plain">
+              <li><a href="https://github.com/TristanBrouille/nucleo_g431kb" target="_blank" rel="noopener">nucleo_g431kb</a>, carte STM32 Nucleo G431KB</li>
+              <li><a href="https://github.com/TristanBrouille/Mur_de_vent" target="_blank" rel="noopener">Mur_de_vent</a>, projet embarqué de 2025</li>
+              <li><a href="https://github.com/TristanBrouille/TP-Language-Java" target="_blank" rel="noopener">TP-Language-Java</a>, orienté objet en Java</li>
+              <li><a href="https://github.com/TristanBrouille/TP-Git---Student-List-Manager" target="_blank" rel="noopener">Student List Manager</a>, travail en équipe avec Git</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- Formation -->
+      <section id="formation" class="block">
+        <h2>Formation</h2>
+        <ol class="timeline">
+          <li class="tl">
+            <p class="tl__when">2021 – 2027</p>
+            <h3>Master ingénieur généraliste</h3>
+            <p class="tl__where">EPF École d'Ingénieurs, Cachan, majeure Systèmes Numériques et Intelligents</p>
+            <ul>
+              <li>Architecture logicielle, sécurité applicative, DevOps et CI/CD, cloud, virtualisation et réseaux.</li>
+            </ul>
+          </li>
+        </ol>
+      </section>
+
+      <!-- Associatif -->
+      <section id="associatif" class="block">
+        <h2>Associatif</h2>
+        <ol class="timeline">
+          <li class="tl">
+            <p class="tl__when">2023 – 2026</p>
+            <h3>EPF Astronomie</h3>
+            <p class="tl__where">Président en 2025-2026, chef de projet de 2024 à 2026</p>
+            <ul>
+              <li>Direction de l'association, qui comptait 50 membres.</li>
+              <li>Pilotage d'une équipe de douze sur une mini-fusée pour le C'Space du CNES&nbsp;: Ada/SPARK (formation AdaCore), STM32, cartes PCB.</li>
+            </ul>
+          </li>
+        </ol>
+      </section>
+
+      <!-- Compétences -->
+      <section id="competences" class="block">
+        <h2>Compétences</h2>
+        <dl class="skills">
+          <dt>Back-end</dt>
+          <dd class="chips"><span>Java</span><span>Spring Boot</span><span>Spring Security</span><span>Spring Data JPA</span><span>JWT</span><span>PHP</span><span>REST / OpenAPI</span><span>DDD</span><span>PostgreSQL</span><span>Flyway</span><span>JUnit</span></dd>
+          <dt>Front-end</dt>
+          <dd class="chips"><span>Angular</span><span>TypeScript</span><span>JavaScript</span><span>Three.js</span><span>WordPress</span><span>HTML / CSS</span><span>Vitest</span></dd>
+          <dt>DevOps</dt>
+          <dd class="chips"><span>Docker</span><span>GitHub Actions</span><span>Ansible</span><span>Nginx</span><span>Linux</span><span>Gitflow</span><span>SSL/TLS</span></dd>
+          <dt>Embarqué et autres</dt>
+          <dd class="chips"><span>Python</span><span>Kotlin</span><span>C / C++</span><span>Ada/SPARK</span><span>MQTT</span><span>Raspberry Pi</span><span>ESP32</span><span>STM32</span><span>Blender</span></dd>
+          <dt>Outils IA</dt>
+          <dd class="chips"><span>Claude Code</span><span>GitHub Copilot</span><span>Cursor</span><span>JetBrains AI</span><span>n8n</span></dd>
+          <dt>Langues</dt>
+          <dd>Français (langue maternelle), anglais professionnel (B2), espagnol et allemand (A2)</dd>
+        </dl>
+      </section>
+
+      <footer class="foot">
+        <p>Une offre de stage ou une question&nbsp;? Écrivez-moi à <a href="mailto:tristan.dhersin@epfedu.fr">tristan.dhersin@epfedu.fr</a>.</p>
+      </footer>
+    </main>
+  </div>
+  <script src="../script.js"></script>
+</body>
+</html>
